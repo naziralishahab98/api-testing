@@ -51,20 +51,7 @@ public class UsersTesting {
         String hobby = "Futsal";
         String gender = "MALE";
 
-        String body =
-                "{\n" +
-                "  \"firstName\": " +FirstName +",\n" +
-                "  \"lastName\": "+LastName+",\n" +
-                "  \"age\": "+age+",\n" +
-                "  \"occupation\": "+occupation+",\n" +
-                "  \"nationality\": "+nationality+" ,\n" +
-                "  \"hobbies\": [\n" +
-                "    "+hobby+"\n" +
-                "  ],\n" +
-                "  \"gender\": "+gender+",\n" +
-                "}";
-
-        String body2 = "{\n"
+        String body = "{\n"
                 + "\n"
                 + "  \"firstName\": \"" + FirstName + "\",\n"
                 + "  \"lastName\": \"" + LastName + "\",\n"
@@ -84,7 +71,7 @@ public class UsersTesting {
                 .header("accept", "application/json")
                 .contentType(ContentType.JSON)
                 .basePath("v1")
-                .body(body2).log().all()
+                .body(body).log().all()
                 .when().post("users");
 
         responsePOST.getBody().prettyPrint();

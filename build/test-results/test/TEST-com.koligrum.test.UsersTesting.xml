@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.koligrum.test.UsersTesting" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-18T06:16:00" hostname="LAPTOP-U166R79V" time="2.075">
+<testsuite name="com.koligrum.test.UsersTesting" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-18T06:31:13" hostname="LAPTOP-U166R79V" time="2.017">
   <properties/>
-  <testcase name="tugasKoligrum()" classname="com.koligrum.test.UsersTesting" time="2.075"/>
+  <testcase name="tugasKoligrum()" classname="com.koligrum.test.UsersTesting" time="2.017"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:1234/v1/users
 Proxy:			<none>
@@ -26,7 +26,7 @@ Body:
     "gender": "MALE"
 }
 {
-    "id": "960d4481-91e5-4c63-a47a-5a89c4748e17",
+    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
     "firstName": "muhammad",
     "lastName": "wildan",
     "age": 24,
@@ -36,22 +36,22 @@ Body:
         "Futsal"
     ],
     "gender": "MALE",
-    "createdDate": "2021-09-18T13:16:01.5879108",
+    "createdDate": "2021-09-18T13:31:14.5143597",
     "updatedDate": null
 }
 Request method:	GET
-Request URI:	http://localhost:1234/v1/users/960d4481-91e5-4c63-a47a-5a89c4748e17
+Request URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=960d4481-91e5-4c63-a47a-5a89c4748e17
+Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
 Headers:		accept=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 {
-    "id": "960d4481-91e5-4c63-a47a-5a89c4748e17",
+    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
     "firstName": "muhammad",
     "lastName": "wildan",
     "age": 24,
@@ -61,7 +61,7 @@ Body:			<none>
         "Futsal"
     ],
     "gender": "MALE",
-    "createdDate": "2021-09-18T13:16:01.5879108",
+    "createdDate": "2021-09-18T13:31:14.5143597",
     "updatedDate": null
 }
 Request method:	PUT
@@ -77,7 +77,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "id": "960d4481-91e5-4c63-a47a-5a89c4748e17",
+    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
     "firstName": "muhammad edit",
     "lastName": "wildan edit",
     "age": 24,
@@ -89,7 +89,7 @@ Body:
     "gender": "MALE"
 }
 {
-    "id": "960d4481-91e5-4c63-a47a-5a89c4748e17",
+    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
     "firstName": "muhammad edit",
     "lastName": "wildan edit",
     "age": 24,
@@ -99,22 +99,22 @@ Body:
         "Futsal"
     ],
     "gender": "MALE",
-    "createdDate": "2021-09-18T13:16:01.5879108",
-    "updatedDate": "2021-09-18T13:16:02.2371758"
+    "createdDate": "2021-09-18T13:31:14.5143597",
+    "updatedDate": "2021-09-18T13:31:15.1466227"
 }
 Request method:	GET
-Request URI:	http://localhost:1234/v1/users/960d4481-91e5-4c63-a47a-5a89c4748e17
+Request URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=960d4481-91e5-4c63-a47a-5a89c4748e17
+Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
 Headers:		accept=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 {
-    "id": "960d4481-91e5-4c63-a47a-5a89c4748e17",
+    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
     "firstName": "muhammad edit",
     "lastName": "wildan edit",
     "age": 24,
@@ -124,28 +124,28 @@ Body:			<none>
         "Futsal"
     ],
     "gender": "MALE",
-    "createdDate": "2021-09-18T13:16:01.5879108",
-    "updatedDate": "2021-09-18T13:16:02.2371758"
+    "createdDate": "2021-09-18T13:31:14.5143597",
+    "updatedDate": "2021-09-18T13:31:15.1466227"
 }
 Request method:	DELETE
-Request URI:	http://localhost:1234/v1/users/960d4481-91e5-4c63-a47a-5a89c4748e17
+Request URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=960d4481-91e5-4c63-a47a-5a89c4748e17
+Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
 Headers:		accept=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 
 Request method:	GET
-Request URI:	http://localhost:1234/v1/users/960d4481-91e5-4c63-a47a-5a89c4748e17
+Request URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=960d4481-91e5-4c63-a47a-5a89c4748e17
+Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
 Headers:		accept=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -154,7 +154,7 @@ Body:			<none>
     "errorCode": "ER-01",
     "statusCode": 404,
     "message": "user not found",
-    "timestamp": "2021-09-18T13:16:02.3289303"
+    "timestamp": "2021-09-18T13:31:15.2247301"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
